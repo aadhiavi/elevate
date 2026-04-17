@@ -1,14 +1,12 @@
-import React from 'react';
 import { Card, Button } from '../components';
 import { 
   GraduationCap, 
   Globe, 
   TrendingUp, 
   Users, 
-  ShieldCheck, 
-  FileText, 
-  Home, 
-  Briefcase 
+  Home,
+  ShieldCheck,
+  FileText
 } from 'lucide-react';
 
 export const Services = () => {

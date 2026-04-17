@@ -1,7 +1,7 @@
 // About page
 
 import { Card } from '../components';
-import { GraduationCap, Users, Award, TrendingUp, Target, Heart, Shield, Mail } from 'lucide-react';
+import { GraduationCap, Users, Award, TrendingUp, Target, Heart, Shield } from 'lucide-react';
 import aboutHero from '../assets/about_hero.png';
 import teamCollage from '../assets/team_collage.png';
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { NAVIGATION_ITEMS } from '../constants';
 import { LogoFull } from './Logo';
-import { GraduationCap, Users, BookOpen, Calendar, Menu, X, Phone, Mail } from 'lucide-react';
+import { GraduationCap, Users, BookOpen, Calendar, Menu, X, Phone } from 'lucide-react';
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

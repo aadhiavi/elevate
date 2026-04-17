@@ -1,7 +1,7 @@
 // Why Malaysia page
 
 import { Card } from '../components';
-import { GraduationCap, Users, Award, MapPin, DollarSign, Shield, Briefcase, Globe, CheckCircle } from 'lucide-react';
+import { GraduationCap, Users, Award, MapPin, DollarSign, Shield, Briefcase, Globe } from 'lucide-react';
 import malaysiaHero from '../assets/malaysia_hero.png';
 
 export const WhyMalaysia = () => {

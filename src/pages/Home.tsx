@@ -2,7 +2,7 @@
 
 import { Link } from 'react-router-dom';
 import { Button, Card } from '../components';
-import { GraduationCap, Users, Award, Globe, TrendingUp, Star, CheckCircle, ArrowRight } from 'lucide-react';
+import { GraduationCap, Users, Award, Globe, TrendingUp, Star, ArrowRight } from 'lucide-react';
 import { HeroDecoration, StatsDecoration, WaveDecoration, FloatingElements } from '../components/Decorations';
 import { Settings, ShieldCheck, Map, Rocket } from 'lucide-react';
 import homeHero from '../assets/home_hero.png';

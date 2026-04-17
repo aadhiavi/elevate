@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button, Card } from '../components';
 import { 
-  GraduationCap, 
-  Users, 
-  TrendingUp, 
   Brain, 
   Target, 
-  FileText, 
   Zap, 
   CheckCircle,
   ArrowRight,

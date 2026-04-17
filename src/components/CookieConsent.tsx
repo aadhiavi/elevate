@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Shield, X } from 'lucide-react';
-import { Button } from './index';
 
 // Helper functions for cookie management
 const setCookie = (name: string, value: string, days: number) => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { LogoFull } from './Logo';
 import { Mail, MapPin, Phone } from 'lucide-react';
