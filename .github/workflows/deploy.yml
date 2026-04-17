@@ -30,7 +30,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           port: 65002
-          source: "dist/*"
-          target: "/home/u972460892/domains/tseaeducation.com/public_html/"
+          source: "dist/*,public/.htaccess"
+          target: "domains/tseaeducation.com/public_html"
           strip_components: 1
           overwrite: true
