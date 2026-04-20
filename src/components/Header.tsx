@@ -84,8 +84,8 @@ export const Header = () => {
                                 to={item.path}
                                 onClick={closeMenu}
                                 className={`flex items-center gap-5 p-5 rounded-2xl transition-all duration-300 ${location.pathname === item.path
-                                        ? 'bg-emerald-500 text-white font-black shadow-lg shadow-emerald-500/20'
-                                        : 'text-slate-300 hover:bg-white/5 active:scale-95'
+                                    ? 'bg-emerald-500 text-white font-black shadow-lg shadow-emerald-500/20'
+                                    : 'text-slate-300 hover:bg-white/5 active:scale-95'
                                     }`}
                             >
                                 <div className={`${location.pathname === item.path ? 'text-white' : 'text-emerald-400'}`}>
@@ -100,7 +100,7 @@ export const Header = () => {
                         <div className="flex items-center justify-between p-5 bg-white/5 rounded-3xl border border-white/5">
                             <div className="flex flex-col">
                                 <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Expert Advice</span>
-                                <span className="font-black text-white text-lg italic">98484 26087</span>
+                                <span className="font-black text-white text-lg italic">8309622516</span>
                             </div>
                             <a href="tel:+918309622516" className="px-6 py-3 bg-emerald-500 text-white text-sm font-black rounded-2xl active:scale-95 transition-all shadow-lg shadow-emerald-500/20">
                                 Call Now

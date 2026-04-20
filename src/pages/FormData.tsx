@@ -157,7 +157,7 @@ export const FormData = () => {
                           <div className="font-black text-slate-900 flex items-center gap-2">
                             <ShieldAlert className="h-4 w-4 text-blue-500" /> {item.subject}
                           </div>
-                          <p className="text-sm text-slate-500 font-medium line-clamp-2 italic">
+                          <p className="text-sm text-slate-500 font-medium italic">
                             "{item.message}"
                           </p>
                         </div>

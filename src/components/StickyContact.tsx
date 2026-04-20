@@ -29,7 +29,7 @@ export const StickyContact = () => {
             >
                 <FaPhoneAlt className="h-6 w-6 text-white" />
                 <span className="absolute right-full mr-3 px-3 py-1 bg-white text-slate-900 text-sm font-bold rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-slate-100">
-                    Call 98484 26087
+                    Call 8309622516
                 </span>
             </a>
         </div>
