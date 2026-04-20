@@ -2,8 +2,14 @@
 
 import { Link } from 'react-router-dom';
 import { Button } from '../components';
+import { useSEO } from '../hooks/useSEO';
 
 export const NotFound = () => {
+  useSEO({
+    title: 'Page Not Found | Elevate Education',
+    description: 'The page you are looking for does not exist. Please navigate back to the home page or contact us for assistance.',
+  });
+
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="text-center space-y-6">

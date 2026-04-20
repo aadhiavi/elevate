@@ -7,10 +7,11 @@ export const APP_VERSION = '1.0.0';
 export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
 
 export const NAVIGATION_ITEMS = [
-  { id: '1', label: 'Home', path: '/' },
-  { id: '2', label: 'About Us', path: '/about' },
-  { id: '3', label: 'Take Test', path: '/take-test' },
-  { id: '4', label: 'Why Malaysia', path: '/why-malaysia' },
+  { id: '3', label: 'Services', path: '/services' },
+  { id: '4', label: 'Opportunities', path: '/opportunities' },
+  { id: '5', label: 'Pathways', path: '/pathways' },
+  { id: '6', label: 'Why Malaysia', path: '/why-malaysia' },
+  { id: '7', label: 'Contact Us', path: '/contact' },
 ];
 
 export const MESSAGES = {
