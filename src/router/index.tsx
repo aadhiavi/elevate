@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { MainLayout } from '../layouts/MainLayout';
 import { Home, ProgramPathways, Services, Opportunities, WhyMalaysia, Contact, FormData, NotFound } from '../pages';
+import { ScrollToTop } from '../components/ScrollToTop';
 
 export const AppRouter = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout><Home /></MainLayout>} />
         <Route path="/pathways" element={<MainLayout><ProgramPathways /></MainLayout>} />
