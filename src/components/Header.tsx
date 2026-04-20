@@ -34,9 +34,8 @@ export const Header = () => {
                             <Link
                                 key={item.id}
                                 to={item.path}
-                                className={`flex items-center space-x-2 text-sm font-semibold transition-all duration-300 group relative ${
-                                    location.pathname === item.path ? 'text-emerald-400' : 'text-slate-300 hover:text-white'
-                                }`}
+                                className={`flex items-center space-x-2 text-sm font-semibold transition-all duration-300 group relative ${location.pathname === item.path ? 'text-emerald-400' : 'text-slate-300 hover:text-white'
+                                    }`}
                             >
                                 {icons[item.label]}
                                 <span>{item.label}</span>
@@ -59,10 +58,10 @@ export const Header = () => {
 
                     {/* Mobile Menu Button */}
                     <div className="flex md:hidden items-center gap-2 sm:gap-4">
-                        <a href="tel:+919848426087" className="p-2 sm:p-2.5 rounded-full bg-emerald-500 text-white hover:bg-emerald-600 transition-colors shadow-lg shadow-emerald-500/20">
+                        <a href="tel:+918309622516" className="p-2 sm:p-2.5 rounded-full bg-emerald-500 text-white hover:bg-emerald-600 transition-colors shadow-lg shadow-emerald-500/20">
                             <Phone className="h-5 w-5" />
                         </a>
-                        <button 
+                        <button
                             onClick={toggleMenu}
                             className="p-2 sm:p-2.5 rounded-xl bg-white/10 text-white hover:bg-white/20 transition-all border border-white/10"
                             aria-label="Toggle Menu"
@@ -74,9 +73,8 @@ export const Header = () => {
             </div>
 
             {/* Mobile Menu Overlay */}
-            <div className={`md:hidden fixed top-[64px] md:top-[80px] left-0 w-full h-[calc(100vh-64px)] bg-slate-900 z-50 transition-all duration-500 ease-in-out transform ${
-                isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
-            }`}>
+            <div className={`md:hidden fixed top-[64px] md:top-[80px] left-0 w-full h-[calc(100vh-64px)] bg-slate-900 z-50 transition-all duration-500 ease-in-out transform ${isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
+                }`}>
                 <div className="flex flex-col h-full bg-slate-900">
                     <div className="flex-grow px-6 py-8 space-y-2 overflow-y-auto">
                         <p className="text-xs font-black text-slate-500 uppercase tracking-[0.3em] mb-6 ml-2">Navigation</p>
@@ -85,11 +83,10 @@ export const Header = () => {
                                 key={item.id}
                                 to={item.path}
                                 onClick={closeMenu}
-                                className={`flex items-center gap-5 p-5 rounded-2xl transition-all duration-300 ${
-                                    location.pathname === item.path 
-                                    ? 'bg-emerald-500 text-white font-black shadow-lg shadow-emerald-500/20' 
-                                    : 'text-slate-300 hover:bg-white/5 active:scale-95'
-                                }`}
+                                className={`flex items-center gap-5 p-5 rounded-2xl transition-all duration-300 ${location.pathname === item.path
+                                        ? 'bg-emerald-500 text-white font-black shadow-lg shadow-emerald-500/20'
+                                        : 'text-slate-300 hover:bg-white/5 active:scale-95'
+                                    }`}
                             >
                                 <div className={`${location.pathname === item.path ? 'text-white' : 'text-emerald-400'}`}>
                                     {icons[item.label]}
@@ -101,13 +98,13 @@ export const Header = () => {
 
                     <div className="p-6 bg-slate-800/50 border-t border-white/5 space-y-4">
                         <div className="flex items-center justify-between p-5 bg-white/5 rounded-3xl border border-white/5">
-                             <div className="flex flex-col">
+                            <div className="flex flex-col">
                                 <span className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Expert Advice</span>
                                 <span className="font-black text-white text-lg italic">98484 26087</span>
-                             </div>
-                             <a href="tel:+919848426087" className="px-6 py-3 bg-emerald-500 text-white text-sm font-black rounded-2xl active:scale-95 transition-all shadow-lg shadow-emerald-500/20">
+                            </div>
+                            <a href="tel:+918309622516" className="px-6 py-3 bg-emerald-500 text-white text-sm font-black rounded-2xl active:scale-95 transition-all shadow-lg shadow-emerald-500/20">
                                 Call Now
-                             </a>
+                            </a>
                         </div>
                         <Link
                             to="/contact"

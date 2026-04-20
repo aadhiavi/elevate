@@ -1,7 +1,7 @@
 import { FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
 
 export const StickyContact = () => {
-    const phoneNumber = '9848426087';
+    const phoneNumber = '8309622516';
     const whatsappLink = `https://wa.me/91${phoneNumber}`;
     const callLink = `tel:+91${phoneNumber}`;
 
